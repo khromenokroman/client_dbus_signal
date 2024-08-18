@@ -7,4 +7,4 @@ set(CMAKE_CXX_STANDARD 17)
 
 add_executable(client_dbus_signal
         main.cpp)
-target_link_libraries(${PROJECT_NAME} fmt::fmt sdbusc++)
+target_link_libraries(${PROJECT_NAME} fmt::fmt sdbus-c++)
